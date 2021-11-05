@@ -1,0 +1,67 @@
+.mainfaqs {
+    background-color: #F7ECE7;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+    }
+
+    &__faq {
+        .text-center {
+            color: #575756;
+            padding-bottom: 1.3rem;
+        }
+
+        .accordion-button {
+            color: #D9BBBB;
+            background-color: #575756;
+            border-radius: 0.3rem;
+            border-color: white;
+            &:hover {
+                    color: #D9BBBB;
+            }
+        }
+
+        .accordion-body {
+            color: #575756;
+            background-color: #D9BBBB;
+        }
+
+        .user-page-logos {
+            padding: 0.5rem;
+        }
+
+
+    }
+}

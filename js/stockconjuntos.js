@@ -1,0 +1,18 @@
+let stockProductos = [
+    { id: 1, nombre: "Kenia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2300, talle: "S", img: '../Images/CA.jpg', cantidad: 1 },
+    { id: 2, nombre: "Libia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2900, talle: "S", img: '../Images/CB.jpg', cantidad: 1 },
+    { id: 3, nombre: "Egipto", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "S", img: '../Images/CC.jpg', cantidad: 1 },
+    { id: 4, nombre: "Mali", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3000, talle: "S", img: '../Images/CD.jpg', cantidad: 1 },
+    { id: 5, nombre: "Zambia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2900, talle: "S", img: '../Images/CE.jpg', cantidad: 1 },
+    { id: 6, nombre: "Togo", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "S", img: '../Images/CF.jpg', cantidad: 1 },
+    { id: 10, nombre: "Kenia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2300, talle: "XS", img: '../Images/CA.jpg', cantidad: 1 },
+    { id: 20, nombre: "Libia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2900, talle: "XS", img: '../Images/CB.jpg', cantidad: 1 },  
+    { id: 33, nombre: "Egipto", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "M", img: '../Images/CC.jpg', cantidad: 1 },
+    { id: 44, nombre: "Mali", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3000, talle: "M", img: '../Images/CD.jpg', cantidad: 1 },
+    { id: 55, nombre: "Zambia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2900, talle: "M", img: '../Images/CE.jpg', cantidad: 1 },
+    { id: 66, nombre: "Togo", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "M", img: '../Images/CF.jpg', cantidad: 1 },
+    { id: 111, nombre: "Kenia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2300, talle: "L", img: '../Images/CA.jpg', cantidad: 1 },
+    { id: 222, nombre: "Libia", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2900, talle: "L", img: '../Images/CB.jpg', cantidad: 1 },
+    { id: 333, nombre: "Egipto", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "L", img: '../Images/CC.jpg', cantidad: 1 },
+    { id: 444, nombre: "Mali", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3000, talle: "L", img: '../Images/CD.jpg', cantidad: 1 },
+]

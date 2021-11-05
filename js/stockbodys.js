@@ -1,0 +1,18 @@
+let stockProductos = [
+    { id: 1, nombre: "Chanel", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3799, talle: "S", img: '../Images/BodyA.jpg', cantidad: 1 },
+    { id: 2, nombre: "Dior", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3200, talle: "S", img: '../Images/BodyB.jpg', cantidad: 1 },
+    { id: 3, nombre: "Balenciaga", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2950, talle: "S", img: '../Images/BodyC.jpg', cantidad: 1 },
+    { id: 4, nombre: "Louis", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3000, talle: "S", img: '../Images/BodyD.jpg', cantidad: 1 },
+    { id: 5, nombre: "Burberry", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3400, talle: "S", img: '../Images/BodyE.jpg', cantidad: 1 },
+    { id: 6, nombre: "Zara", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "S", img: '../Images/BodyF.jpg', cantidad: 1 },
+    { id: 01, nombre: "Chanel", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3799, talle: "XS", img: '../Images/BodyA.jpg', cantidad: 1 },
+    { id: 02, nombre: "Dior", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3200, talle: "XS", img: '../Images/BodyB.jpg', cantidad: 1 },  
+    { id: 33, nombre: "Balenciaga", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2950, talle: "M", img: '../Images/BodyC.jpg', cantidad: 1 },
+    { id: 44, nombre: "Louis", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3000, talle: "M", img: '../Images/BodyD.jpg', cantidad: 1 },
+    { id: 55, nombre: "Burberry", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3400, talle: "M", img: '../Images/BodyE.jpg', cantidad: 1 },
+    { id: 66, nombre: "Zara", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2700, talle: "M", img: '../Images/BodyF.jpg', cantidad: 1 },
+    { id: 111, nombre: "Chanel", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3799, talle: "L", img: '../Images/BodyA.jpg', cantidad: 1 },
+    { id: 222, nombre: "Dior", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3200, talle: "L", img: '../Images/BodyB.jpg', cantidad: 1 },
+    { id: 333, nombre: "Balenciaga", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 2950, talle: "L", img: '../Images/BodyC.jpg', cantidad: 1 },
+    { id: 444, nombre: "Louis", tipo: "Conjunto", desc: "(Preguntar por hacerlo a medida)", precio: 3000, talle: "L", img: '../Images/BodyD.jpg', cantidad: 1 },
+]

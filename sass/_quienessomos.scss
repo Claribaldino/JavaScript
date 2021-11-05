@@ -1,0 +1,52 @@
+.quienes__us {
+        background-image: url(../Images/backnosotros.jpg);
+        background-size: contain;
+        padding: 1rem;
+
+        &__title {
+            font-size: 5rem;
+            color: #575757;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 1rem;
+            color: #575757;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        &__mision {
+            color: #575757;
+            font-size: 2rem;
+        }
+
+        &__end {
+            font-size: 1.2rem;
+            text-align: center;
+            background-color: #D9BBBB;
+            border-radius: 1.5rem;
+            margin: 0;
+            background-color: rgba(236, 164, 198, 0.603);
+            font-weight: bold;
+            color: #575757;
+        }
+    }
+
+@media (max-width:538px) {
+    .mainquienes__us{
+    &__title {
+       font-size: 2rem;
+    }
+    &__text {
+        font-size: 0.8rem;
+    }
+    &__mision {
+        font-size: 1.2rem;
+    }
+    &__end {
+        font-size: 0.8rem;
+    }
+    }
+}

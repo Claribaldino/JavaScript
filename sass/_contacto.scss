@@ -1,0 +1,86 @@
+.maincontacto {
+    background-color: #F7ECE7;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display', serif;
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+
+    }
+
+    &__contactClair {
+        background-color: #D9BBBB;
+        padding: 2rem 0;
+
+        .item1 {
+            width: 100%;
+            color: #575757;
+            border: 2px solid #575757;
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .jean {
+            border-radius: 15px;
+        }
+
+    }
+
+
+
+    @media (max-width:768px) {
+        .contactForm {
+            width: 25rem;
+        }
+        .imgjean {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    @media (max-width:480px) {
+        .contactForm {
+            text-align: center;
+            width: 100%;
+            padding-top: 1rem;
+        }
+        .maincontacto__mobile {
+            flex-direction: column;
+        }
+    }
+}
+

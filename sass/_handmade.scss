@@ -1,0 +1,100 @@
+.mainhandmade {
+    background-color: #F7ECE7;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display', serif;
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+    }
+
+    &__handmademeans {
+        display: grid;
+        
+
+        .title {
+            grid-column: 1/2;
+            width: 80%;
+            font-size: 2rem;
+        }
+
+        .parrafo {
+            grid-column: 1/2;
+            width: 80%;
+            margin-left: 0.7rem;
+            text-align: justify;
+            margin-top: 2rem;
+        }
+
+        .estrias {
+            grid-column: 2/2;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .estriasimg {
+            border-radius: 3rem;
+        }
+    }
+
+
+    @media (max-width:768px) {
+
+        .mainhandmade__handmademeans {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .estrias {
+            padding-left: 2rem;
+        }
+    }
+
+    @media (max-width:480px) {
+
+        .mainhandmade__handmademeans {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            padding-left: 4rem;
+        }
+
+        .estrias {
+            padding-left: 3rem;
+        }
+
+    }
+}

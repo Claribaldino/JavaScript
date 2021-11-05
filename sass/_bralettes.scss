@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+.mainproducts {
+    background-color: #F6F5F3;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display', serif;
+    
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+ 
+        &__themost {
+            font-size: 3rem;
+            color: #575756;
+            margin-top: 1rem;
+        }
+    }
+    .card {
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+    .btn {
+        background-color: #D9BBBB;
+        border-color: #D9BBBB;
+    }
+
+    
+
+    @media (max-width:768px) {
+        .eteno {
+            display: none;
+        }
+
+        .card {
+            width: 80%;
+            margin: 20px auto;
+        }
+    }
+
+    @media (max-width:480px) {
+        .eteno {
+            display: none;
+        }
+        
+    }
+    
+}
+

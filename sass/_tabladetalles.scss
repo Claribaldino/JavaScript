@@ -1,0 +1,52 @@
+.maintable {
+    background-color: #F7ECE7;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display', serif;
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+    }
+
+    &__imgs {
+        padding: 1rem;
+
+        .img-fluid {
+            padding: 0.5rem;
+        }
+    }
+
+    &__textalles {
+        font-size: 1.5rem;
+        color: #575757;
+        text-align: center;
+    }
+}

@@ -1,0 +1,88 @@
+.mainallproducts {
+    background-color: #F6F5F3;
+    padding-top: 2.2rem;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display', serif;
+
+    &__title {
+        font-style: normal;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #D9BBBB;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            background-color: #F6F5F3;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            border-radius: 0.2rem;
+            display: inline-block;
+            color: #575756;
+
+            &:hover {
+                background-color: #575756;
+                color: #F7ECE7;
+            }
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        &__themost {
+            font-size: 3rem;
+            color: #575756;
+        }
+    }
+
+
+    /* equal card height */
+    .row-equal>div[class*='col-'] {
+        display: flex;
+        flex: 1 0 auto;
+    }
+
+    .row-equal .card {
+        width: 100%;
+    }
+
+    /* ensure equal card height inside carousel */
+    .carousel-inner>.row-equal.active,
+    .carousel-inner>.row-equal.next,
+    .carousel-inner>.row-equal.prev {
+        display: flex;
+    }
+
+    /* prevent flicker during transition */
+    .carousel-inner>.row-equal.active.left,
+    .carousel-inner>.row-equal.active.right {
+        opacity: 0.5;
+        display: flex;
+    }
+
+
+    /* control image height */
+    .card-img-top-250 {
+        max-height: 250px;
+        overflow: hidden;
+    }
+
+    .container {
+        padding: 0 1rem 2rem 1rem;
+    }
+
+}
