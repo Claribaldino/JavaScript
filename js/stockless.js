@@ -15,8 +15,8 @@ let stockProductos = [
     { id: 66, nombre: "Less Zyra", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 2700, talle: "M", img: '../Images/L6.jpg', cantidad: 1 },
     { id: 77, nombre: "Less Mona", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 700, talle: "M", img: '../Images/L7.jpg', cantidad: 1 },
     { id: 88, nombre: "Less Blika", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 800, talle: "M", img: '../Images/L8.jpg', cantidad: 1 },
-    { id: 01, nombre: "Less Annie", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 3800, talle: "XS", img: '../Images/L1.jpg', cantidad: 1 },
-    { id: 02, nombre: "Less Charo", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 900, talle: "XS", img: '../Images/L2.jpg', cantidad: 1 },
+    { id: 10, nombre: "Less Annie", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 3800, talle: "XS", img: '../Images/L1.jpg', cantidad: 1 },
+    { id: 20, nombre: "Less Charo", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 900, talle: "XS", img: '../Images/L2.jpg', cantidad: 1 },
     { id: 333, nombre: "Less Opra", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1700, talle: "L", img: '../Images/L3.jpg', cantidad: 1 },
     { id: 444, nombre: "Less Izzy", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 2800, talle: "L", img: '../Images/L9.jpg', cantidad: 1 },
   ]

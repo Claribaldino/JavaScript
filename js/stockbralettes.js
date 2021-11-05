@@ -15,8 +15,8 @@ let stockProductos = [
     { id: 66, nombre: "Oslo B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1790, talle: "M", img: '../Images/6.jpg', cantidad: 1 },
     { id: 77, nombre: "Helsinki B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1700, talle: "M", img: '../Images/7.jpg', cantidad: 1 },
     { id: 88, nombre: "Rio B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1800, talle: "M", img: '../Images/8.jpg', cantidad: 1 },
-    { id: 01, nombre: "Berlin B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 2100, talle: "XS", img: '../Images/1.jpg', cantidad: 1 },
-    { id: 02, nombre: "Tokio B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1900, talle: "XS", img: '../Images/2.jpg', cantidad: 1 },
+    { id: 10, nombre: "Berlin B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 2100, talle: "XS", img: '../Images/1.jpg', cantidad: 1 },
+    { id: 20, nombre: "Tokio B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1900, talle: "XS", img: '../Images/2.jpg', cantidad: 1 },
     { id: 333, nombre: "Nairobi B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1700, talle: "L", img: '../Images/3.jpg', cantidad: 1 },
     { id: 444, nombre: "Denver B", tipo: "Less", desc: "(Preguntar por hacerla a medida)", precio: 1850, talle: "L", img: '../Images/4.jpg', cantidad: 1 },
   ]
